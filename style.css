@@ -1,0 +1,136 @@
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+table,th,tr,td{
+    border: 3px white solid;
+    color: white;
+    background-color: rgb(77, 77, 77);
+    border-collapse: collapse;
+}
+
+body{
+    background-image:url('2cc00720-b7be-46bf-b798-d92d951227f4.jpg') ;
+}
+
+#first-div{
+    background-color:rgba(114, 104, 211, 0.8) ;
+    width:30% ;
+    position: relative;
+    color: white;
+    
+}
+#second-div{
+    margin-left:33% ;
+    background-color:rgba(114, 104, 211, 0.8) ;
+    width:60% ;
+    position: relative;
+}
+
+#submitbtn{
+    background-color: black;
+    color: white;
+}
+
+#l1{
+    margin-left: 20%;
+}
+#l2{
+    margin-left: 20%;
+}
+#donatornameid{
+    margin-left: 10%;
+}
+#donationamountid{
+    margin-left: 10%;
+}
+#donation-list{
+    margin-left: 10%;
+}
+
+
+/* {
+    //     "extends": "eslint:recommended",
+    //     "parserOptions": {
+    //       "ecmaVersion": 6,
+    //       "ecmaFeatures": {
+    //         "impliedStrict": true
+    //       }
+    //     },
+    //     "env": {
+    //       "browser": true,
+    //       "es6": true
+    //     },
+    //     "rules": {
+    //       "eqeqeq": ["error", "always"],
+    //       "no-console": "off",
+    //       "no-undefined": "off",
+    //       "indent": ["error", 2],
+    //       "quotes": ["warn", "single"],
+    //       "no-multi-spaces": [
+    //         "warn",
+    //         {
+    //           "exceptions": {
+    //             "VariableDeclarator": true
+    //           }
+    //         }
+    //       ],
+    //       "no-trailing-spaces": "warn",
+    //       "new-cap": "warn",
+    //       "no-redeclare": [
+    //         "error",
+    //         {
+    //           "builtinGlobals": true
+    //         }
+    //       ],
+    //       "semi": [2, "always"],
+    //       "eol-last": "error"
+    //     }
+    //   } */
